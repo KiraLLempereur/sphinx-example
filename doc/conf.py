@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Example'
-copyright = 'workshop participant'
-author = 'workshop participant'
+project = 'Kira Lempereur\'s Tech Writing Portfolio'
+copyright = '2025, Kira Lempereur'
+author = 'Kira Lempereur'
 release = '0.1'
 
 
@@ -25,4 +25,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
+html_static_path = ['../src/_static']
+html_favicon = '../src/_static/favicon.png'
+html_logo = '../src/_static/logo.png'
